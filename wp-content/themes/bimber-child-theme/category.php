@@ -24,7 +24,6 @@ get_header();
 					<div class="g1-column">
 						<?php
 						the_archive_title( '<h1 class="g1-alpha g1-alpha-2nd archive-title">', '</h1>' );
-						the_archive_description( '<h2 class="g1-delta g1-delta-3rd archive-subtitle">', '</h2>' );
 						?>
 					</div>
 				</div>
