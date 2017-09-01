@@ -1,0 +1,58 @@
+/*
+Theme Name:     Bimber Child Theme
+Theme URI:      http://bimber.bringthepixel.com
+Description:    Got questions? Visit our <a href="http://bringthepixel.com/support/">support forum</a>.
+Author:         bring the pixel
+Author URI:     http://www.bringthepixel.com/
+Template:       bimber
+Version:        1.0
+Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-formats, theme-options, threaded-comments, translation-ready
+*/
+
+/* Place all your CSS modifications below */
+
+/* Badge entfernt mit Hinweis auf Meistgel */
+.archive-featured-title {
+display:none;
+}
+
+/* Abstand Body */
+.archive-body {
+    padding: 30px 0;
+}
+
+/* Startseite Box mit Featured Articles */
+.archive-featured-row {
+    padding-top: 30px;
+}
+
+/* Header Height & Text Color */
+.g1-header {
+color:#fff;
+    height: 120px;
+}
+
+/* Icons im Header ohne Opacity */
+.g1-quick-nav-menu > .menu-item > a:before {
+opacity: 100;
+}
+
+/* Pre Footer ausgeblendet */
+.g1-prefooter {
+    display: none;
+}
+
+/* Back to Top Groesse angepasst */
+.g1-back-to-top {
+    width: 30px;
+    height: 30px;
+}
+
+/* Butler Background im Header */
+@media only screen and (min-width: 960px) {
+.g1-header > .g1-row-background {
+    background-image: url(https://blog.websitebutler.de/wp-content/uploads/2016/07/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
