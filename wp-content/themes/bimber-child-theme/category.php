@@ -23,7 +23,7 @@ get_header();
 				<div class="g1-row-inner">
 					<div class="g1-column">
 						<?php
-						the_archive_title( '<h1 class="g1-alpha g1-alpha-2nd archive-title">', '</h1>' );
+						the_archive_description( '', '</h1>' );
 						?>
 					</div>
 				</div>
