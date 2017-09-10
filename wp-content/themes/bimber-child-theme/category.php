@@ -46,9 +46,17 @@ get_header();
 			$seo_content = get_field('seo_content', $queried_object);
 
 			if($seo_content !== null && $seo_content !== ''){
-				  print '<div class="category-content">'.do_shortcode($seo_content).'</div>';
+				  print '<div class="g1-row g1-row-layout-page">';
+				  print '<div class="g1-row-inner">';
+					  print '<div id="primary" class="g1-column g1-column-2of3">';
+					  	print do_shortcode($seo_content);
+					  print '</div>';
+				  print '</div>';
+				  print '<div class="g1-row-background"></div>';
+		  	print '</div>';
 			}
 		?>
 	</div><!-- #primary -->
 
 <?php get_footer();
+
