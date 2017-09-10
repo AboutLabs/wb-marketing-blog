@@ -14,6 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header();
+
+$queried_object = get_queried_object();
+
 ?>
 
 	<div id="primary" class="g1-primary-max">
@@ -23,7 +26,12 @@ get_header();
 				<div class="g1-row-inner">
 					<div class="g1-column">
 						<?php
-						the_archive_description( '', '</h1>' );
+							$seo_title = get_field('seo_title', $queried_object);
+							
+							if($seo_title !== null && $seo_title !== ''){
+								echo '<h1>'.$seo_title.'</h1>';
+							}
+							the_archive_description();
 						?>
 					</div>
 				</div>
@@ -32,31 +40,29 @@ get_header();
 			</header>
 
 			<?php
-			$bimber_archive_settings = bimber_get_archive_settings();
-			bimber_set_template_part_data( $bimber_archive_settings );
+				$bimber_archive_settings = bimber_get_archive_settings();
+				bimber_set_template_part_data( $bimber_archive_settings );
 
-			get_template_part( 'template-parts/archive-' . $bimber_archive_settings['template'] );
+				get_template_part( 'template-parts/archive-' . $bimber_archive_settings['template'] );
 
-			bimber_reset_template_part_data();
+				bimber_reset_template_part_data();
 			?>
 
 		</div><!-- #content -->
 		<?php
-			$queried_object = get_queried_object();
 			$seo_content = get_field('seo_content', $queried_object);
 
 			if($seo_content !== null && $seo_content !== ''){
-				  print '<div class="g1-row g1-row-layout-page">';
-				  print '<div class="g1-row-inner">';
-					  print '<div id="primary" class="g1-column g1-column-2of3">';
-					  	print do_shortcode($seo_content);
-					  print '</div>';
-				  print '</div>';
-				  print '<div class="g1-row-background"></div>';
-		  	print '</div>';
+				echo '<div class="g1-row g1-row-layout-page">';
+				echo '<div class="g1-row-inner">';
+					echo '<div id="primary" class="g1-column g1-column-2of3">';
+						echo $seo_content;
+					echo '</div>';
+				echo '</div>';
+				echo '<div class="g1-row-background"></div>';
+		  	echo '</div>';
 			}
 		?>
 	</div><!-- #primary -->
 
 <?php get_footer();
-
