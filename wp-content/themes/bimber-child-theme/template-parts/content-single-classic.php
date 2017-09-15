@@ -8,6 +8,10 @@
 
 $bimber_entry_data = bimber_get_template_part_data();
 $bimber_elements   = $bimber_entry_data['elements'];
+
+$queried_object = get_queried_object();
+$seo_content = get_field('post_description', $queried_object);
+
 ?>
 
 <?php
@@ -29,6 +33,8 @@ endif;
 		<?php bimber_render_entry_flags( array( 'show_collections' => false ) ); ?>
 
 		<?php the_title( '<h1 class="g1-mega g1-mega-1st entry-title" itemprop="headline">', '</h1>' ); ?>
+
+		<?php echo $seo_content; ?>
 
 		<?php
 		if ( bimber_can_use_plugin( 'wp-subtitle/wp-subtitle.php' ) ) :
