@@ -259,21 +259,21 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   ----------------------------------------------------------------------------- */
   html { font-size: 15px; }
   
-  body, input, select, textarea, button { line-height: 1.5; font-family: "Roboto", "Arial", sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body, input, select, textarea, button { line-height: 1.5; font-family: "Source Sans Pro", "Arial", sans-serif; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
   
-  .g1-mega { font-size: 1.80203rem; line-height: 1.067; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; letter-spacing: -0.05em; }
+  .g1-mega { font-size: 1.80203rem; line-height: 1.067; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; letter-spacing: -0.05em; }
   
-  h1, .g1-alpha { font-size: 1.60181rem; line-height: 1.067; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 600; letter-spacing: -0.05em; }
+  h1, .g1-alpha { font-size: 1.60181rem; line-height: 1.067; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 600; letter-spacing: -0.05em; }
   
-  h2, .g1-beta { font-size: 1.42383rem; line-height: 1.125; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 600; letter-spacing: -0.025em; }
+  h2, .g1-beta { font-size: 1.42383rem; line-height: 1.125; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 600; letter-spacing: -0.025em; }
   
-  h3, .g1-gamma { font-size: 1.26563rem; line-height: 1.125; font-family: "Poppins", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
+  h3, .g1-gamma { font-size: 1.26563rem; line-height: 1.125; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
   
-  h4, .g1-delta { font-size: 1.125rem; line-height: 1.2; font-family: "Poppins", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
+  h4, .g1-delta { font-size: 1.125rem; line-height: 1.2; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
   
-  h5, .g1-epsilon { font-size: 14px; line-height: 18px; font-family: "Poppins", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
+  h5, .g1-epsilon { font-size: 14px; line-height: 18px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; letter-spacing: -0.025em; font-weight: 600; }
   
-  h6, .g1-zeta { font-size: 11px; line-height: 12px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: normal; }
+  h6, .g1-zeta { font-size: 11px; line-height: 12px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 500; text-transform: uppercase; letter-spacing: normal; }
   
   /* Large screen typography */
   @media only screen and (min-width: 1025px) { h6, .g1-zeta { font-size: 11px; }
@@ -283,7 +283,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
     h2, .g1-beta { font-size: 1.62223rem; }
     h1, .g1-alpha, .g1lg-alpha { font-size: 1.90613rem; }
     .g1-mega { font-size: 2.63164rem; } }
-  .g1-mega-2nd, .g1-alpha-2nd, .g1-beta-2nd, .g1-gamma-2nd, .g1-delta-2nd, .g1-epsilon-2nd, .g1-zeta-2nd { font-family: "Poppins", "Roboto", "Arial", sans-serif; color: #999; font-weight: 700; letter-spacing: normal; text-transform: uppercase; }
+  .g1-mega-2nd, .g1-alpha-2nd, .g1-beta-2nd, .g1-gamma-2nd, .g1-delta-2nd, .g1-epsilon-2nd, .g1-zeta-2nd { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; color: #999; font-weight: 700; letter-spacing: normal; text-transform: uppercase; }
   
   .g1-mega-3rd, .g1-alpha-3rd, .g1-beta-3rd, .g1-gamma-3rd, .g1-delta-3rd, .g1-epsilon-3rd, .g1-zeta-3rd { font-weight: 300; letter-spacing: -0.025em; opacity: 0.5; }
   
@@ -317,7 +317,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   /* Wide buttons */
   .g1-button-wide { display: block; }
   
-  input[type=submit], input[type=reset], input[type=button], button, .g1-button { font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: normal; }
+  input[type=submit], input[type=reset], input[type=button], button, .g1-button { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: normal; }
   
   /* Search form */
   .search-form { margin-bottom: 1.5rem; }
@@ -331,8 +331,8 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   form.g1-form-pass-protected:before { display: block; position: absolute; left: 0; right: auto; top: 0; font: 210px/210px FontAwesome; content: "\f023"; }
   form.g1-form-pass-protected input[type="password"] { width: 300px; margin: 0.375em 0 0.75em 0; display: block; }
   
-  blockquote { position: relative; padding: 2em 10px 0.5em; text-align: center; font-size: 24px; line-height: 30px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 300; letter-spacing: 0.025em; /* Open quote */ /* Borders */ }
-  blockquote:before { display: block; position: absolute; z-index: -1; left: 50%; right: auto; top: 20px; font-size: 60px; line-height: 1; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; cursor: default; vertical-align: bottom; content: "\201c"; }
+  blockquote { position: relative; padding: 2em 10px 0.5em; text-align: center; font-size: 24px; line-height: 30px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 300; letter-spacing: 0.025em; /* Open quote */ /* Borders */ }
+  blockquote:before { display: block; position: absolute; z-index: -1; left: 50%; right: auto; top: 20px; font-size: 60px; line-height: 1; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; cursor: default; vertical-align: bottom; content: "\201c"; }
   blockquote:after { display: block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; z-index: -1; left: 0; right: auto; top: 0; width: 100%; height: 100%; border-width: 6px 0 1px; border-style: solid; content: ""; opacity: 0.1666; }
   
   @media only screen and (min-width: 1025px) { blockquote { padding-left: 3em; padding-right: 3em; } }
@@ -374,7 +374,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .gallery-columns-9 .gallery-item { width: 11.11111%; }
   
   /* --- Pagination, Page links ------------------------------------------------------------------ */
-  .g1-pagination { clear: both; margin-bottom: 2.25rem; font-size: 16px; font-family: "Poppins", "Roboto", "Arial", sans-serif; }
+  .g1-pagination { clear: both; margin-bottom: 2.25rem; font-size: 16px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; }
   .g1-pagination ul { position: relative; margin: 0 -3px; list-style: none; text-align: center; }
   .g1-pagination ul:after { display: table; clear: both; content: ""; }
   .g1-pagination ul > li { display: inline-block; margin: 0; padding: 0 3px; vertical-align: middle; }
@@ -383,7 +383,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .g1-pagination ul > .g1-pagination-item > a { padding: 10px; font-size: 16px; line-height: 20px; }
   .g1-pagination ul > .g1-pagination-item-current > span { padding: 10px; font-size: 16px; line-height: 20px; }
   
-  .g1-pagination-label { padding: 10px 0; text-align: center; font: 16px/20px "Poppins", "Roboto", "Arial", sans-serif; }
+  .g1-pagination-label { padding: 10px 0; text-align: center; font: 16px/20px "Source Sans Pro", "Roboto", "Arial", sans-serif; }
   
   .g1-pagination-item-prev { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin-right: 1em; /* lsaquo */ }
   .g1-pagination-item-prev > .prev { display: block; }
@@ -415,8 +415,8 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .g1-pagination-label-none + ul .g1-pagination-item, .g1-pagination-label-none + ul .g1-pagination-item-current { display: none; }
   
   /* =table */
-  table caption { font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 400; }
-  table th { font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; }
+  table caption { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 400; }
+  table th { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; }
   
   .g1-table { margin-bottom: 1.5em; overflow-x: auto; }
   .g1-table caption { width: auto; padding: 2px 16px 10px 16px; font-size: 0.83em; }
@@ -449,7 +449,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .g1-newsletter .mc4wp-form input[type=text], .g1-newsletter .mc4wp-form input[type=email], .g1-newsletter .mc4wp-form input[type=select] { width: 100%; }
   .g1-newsletter .mc4wp-form input[type=submit] { display: block; width: 100%; }
   
-  .g1-newsletter-privacy { margin-top: -0.25em; font-size: 12px; line-height: 14px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 400; opacity: 0.666; }
+  .g1-newsletter-privacy { margin-top: -0.25em; font-size: 12px; line-height: 14px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 400; opacity: 0.666; }
   
   .g1-box .mc4wp-form-fields label { position: absolute; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
   .g1-box .mc4wp-form-fields p { margin-bottom: 0.75em; }
@@ -485,7 +485,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .entry-title + .entry-subtitle { margin-top: -0.75em; }
   
   /* Entry categories */
-  .entry-category { display: inline-block; position: relative; margin-right: 1px; margin-top: 1px; font-size: 13px; line-height: 1; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 600; text-transform: uppercase; pointer-events: auto; color: #333; text-shadow: none; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; }
+  .entry-category { display: inline-block; position: relative; margin-right: 1px; margin-top: 1px; font-size: 13px; line-height: 1; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 600; text-transform: uppercase; pointer-events: auto; color: #333; text-shadow: none; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; }
   .entry-categories-solid .entry-category { padding: 3px 9px; border-width: 1px; font-size: 13px; line-height: 1; border-style: solid; border-color: #e6e6e6; background-color: #e6e6e6; color: #000; }
   
   .entry-categories { margin: 0 0 24px; margin: 0 0 1.5rem; font-size: 0; }
@@ -493,7 +493,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .entry-categories-inner { display: block; margin-top: -1px; }
   
   /* Entry tags */
-  .entry-tag { display: inline-block; margin-right: 8px; font-size: 14px; font-family: "Poppins", "Roboto", "Arial", sans-serif; letter-spacing: 0.05em; font-weight: 400; vertical-align: top; text-transform: uppercase; color: inherit; }
+  .entry-tag { display: inline-block; margin-right: 8px; font-size: 14px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; letter-spacing: 0.05em; font-weight: 400; vertical-align: top; text-transform: uppercase; color: inherit; }
   .entry-tag:before { content: "#"; }
   
   .entry-author { display: block; margin-right: 10px; }
@@ -523,7 +523,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .entry-meta-m .entry-views-trending strong { color: #bf0029; }
   .entry-meta-m .entry-comments-link a:before { font-size: 24px; line-height: 32px; }
   
-  .entry-meta { font-size: 13px; line-height: 15px; font-family: "Poppins", "Roboto", "Arial", sans-serif; letter-spacing: normal; }
+  .entry-meta { font-size: 13px; line-height: 15px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; letter-spacing: normal; }
   .entry-meta strong { font-weight: 400; }
   
   .entry-meta-wrap { display: block; }
@@ -585,7 +585,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .entry-tpl-grid .entry-title { padding-top: 0.75em; margin-bottom: 0.75em; }
   
   .entry-tpl-grid-fancy { text-align: center; counter-increment: g1-collection-item-counter; }
-  .entry-tpl-grid-fancy .entry-counter { display: table; position: relative; z-index: 1; min-width: 20px; margin-left: auto; margin-right: auto; font-size: 14px; line-height: 20px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 500; text-align: center; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
+  .entry-tpl-grid-fancy .entry-counter { display: table; position: relative; z-index: 1; min-width: 20px; margin-left: auto; margin-right: auto; font-size: 14px; line-height: 20px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 500; text-align: center; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; }
   .entry-tpl-grid-fancy .entry-counter:before { content: counter(g1-collection-item-counter); }
   @media only screen and (min-width: 1025px) { .entry-tpl-grid-fancy .entry-counter { min-width: 20px; font-size: 14px; line-height: 20px; } }
   .entry-tpl-grid-fancy .entry-featured-media { margin-top: -10px; }
@@ -742,7 +742,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .widget_recent_entries li { margin-bottom: 0.666em; font-size: 15px; line-height: 20px; }
   .widget_recent_entries li > a { color: #333; }
   .widget_recent_entries li > a:hover { color: #ff0036; }
-  .widget_recent_entries li > .post-date { display: block; font-size: 13px; font-family: "Poppins", "Roboto", "Arial", sans-serif; color: #999; }
+  .widget_recent_entries li > .post-date { display: block; font-size: 13px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; color: #999; }
   
   #wp-calendar { table-layout: fixed; position: relative; max-width: 350px; width: 100%; border-top-width: 3px; border-style: solid; }
   #wp-calendar caption { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0 45px 0.375rem 0; text-align: left; }
@@ -762,7 +762,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .tagcloud { margin-bottom: 1.5rem; }
   .tagcloud:after { display: table; clear: left; content: ""; }
-  .tagcloud > a { display: block; position: relative; float: left; margin: 0 6px 6px 0; padding: 7px 9px 6px; font-size: 13px !important; line-height: 1.125; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: normal; color: inherit; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; }
+  .tagcloud > a { display: block; position: relative; float: left; margin: 0 6px 6px 0; padding: 7px 9px 6px; font-size: 13px !important; line-height: 1.125; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: normal; color: inherit; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out; }
   .tagcloud > a:before { margin-right: 0.25em; content: "#"; }
   .tagcloud > a:after { display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; border-width: 1px; border-style: solid; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; content: ""; opacity: 0.1666; -moz-transition: opacity 0.375s ease-in-out; -o-transition: opacity 0.375s ease-in-out; -webkit-transition: opacity 0.375s ease-in-out; transition: opacity 0.375s ease-in-out; }
   .tagcloud > a:hover:after { opacity: 1; }
@@ -771,7 +771,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   ul#recentcomments li.recentcomments { position: relative; margin-bottom: 1em; padding-left: 20px; }
   @media only screen and (min-width: 1025px) { ul#recentcomments li.recentcomments { padding-left: 30px; } }
   ul#recentcomments li.recentcomments:before { position: absolute; left: 0; right: auto; top: 0; font-size: 18px; font-family: "bimber"; font-weight: normal; vertical-align: middle; content: "\e010"; opacity: 0.333; }
-  ul#recentcomments li.recentcomments .comment-author-link { font-size: 13px; font-family: "Poppins", "Roboto", "Arial", sans-serif; }
+  ul#recentcomments li.recentcomments .comment-author-link { font-size: 13px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; }
   ul#recentcomments li.recentcomments .comment-author-link .url { color: #666; }
   ul#recentcomments li.recentcomments .comment-author-link .url:hover { color: #333; }
   ul#recentcomments li.recentcomments > a { display: block; font-size: 1rem; font-size: 15px; line-height: 20px; color: #333; }
@@ -782,7 +782,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .widget_rss ul li { margin-bottom: 1.5rem; }
   .widget_rss ul li a.rsswidget { display: block; margin-bottom: 0.25em; font-size: 1.17em; line-height: 1.125; }
   .widget_rss ul li .rssSummary { margin-bottom: 0.75em; }
-  .widget_rss ul li .rss-date, .widget_rss ul li .rssSummary + cite { display: block; margin-bottom: 0.75em; font: 13px/1.125 "Poppins", "Roboto", "Arial", sans-serif; opacity: 0.666; }
+  .widget_rss ul li .rss-date, .widget_rss ul li .rssSummary + cite { display: block; margin-bottom: 0.75em; font: 13px/1.125 "Source Sans Pro", "Roboto", "Arial", sans-serif; opacity: 0.666; }
   
   #secondary .widget { margin-bottom: 3rem; }
   #secondary .widget > header { overflow: hidden; text-align: center; }
@@ -801,7 +801,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .comment-body { padding: 0.75em 0 1.5em; }
   
-  .comment-meta { margin-bottom: 0.25em; font-size: 16px; line-height: 18px; font-family: "Poppins", "Roboto", "Arial", sans-serif; color: #999; }
+  .comment-meta { margin-bottom: 0.25em; font-size: 16px; line-height: 18px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; color: #999; }
   .comment-meta .says { display: none; }
   .comment-meta b { font-weight: 600; }
   .comment-meta b > a { color: #000; }
@@ -811,12 +811,12 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .comment-author .g1-epsilon { font-size: 16px; }
   .comment-author > .avatar { display: block; position: absolute; left: 0; right: auto; top: 0; }
   
-  .comment-metadata { display: inline-block; font-family: "Poppins", "Roboto", "Arial", sans-serif; text-align: left; }
+  .comment-metadata { display: inline-block; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; text-align: left; }
   .comment-metadata time { font-size: 13px; }
   
   .comment-edit-link { margin-left: 1.5em; font-size: 13px; }
   
-  .reply { margin-top: -1.25em; font-size: 13px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 400; }
+  .reply { margin-top: -1.25em; font-size: 13px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 400; }
   .reply a { color: #999; }
   
   .comment-list .children { margin-left: 10px; }
@@ -859,7 +859,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   @media only screen and (min-width: 801px) { .author-info { padding: 30px 30px 0; }
     .author-info .author-avatar { left: 0; width: auto; height: auto; }
     .author-info .author-overview { padding-left: 90px; } }
-  .g1-nav-single { margin: 2rem 0 1rem; font-family: "Poppins", "Roboto", "Arial", sans-serif; }
+  .g1-nav-single { margin: 2rem 0 1rem; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; }
   
   .g1-single-nav-label { position: absolute; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
   
@@ -868,7 +868,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .g1-nav-single-prev, .g1-nav-single-next { margin-bottom: 1rem; }
   .g1-nav-single-prev > a, .g1-nav-single-next > a { display: block; padding-left: 30px; padding-right: 30px; color: inherit; }
-  .g1-nav-single-prev > a > strong, .g1-nav-single-next > a > strong { display: block; margin-bottom: 0.5em; font-size: 13px; line-height: 16px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: normal; opacity: 0.666; }
+  .g1-nav-single-prev > a > strong, .g1-nav-single-next > a > strong { display: block; margin-bottom: 0.5em; font-size: 13px; line-height: 16px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: normal; opacity: 0.666; }
   .g1-nav-single-prev > a > span, .g1-nav-single-next > a > span { display: block; position: relative; }
   
   .g1-nav-single-prev > a > span { margin-left: auto; margin-right: 0; }
@@ -913,7 +913,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .wp-caption img { display: block; }
   
-  .wp-caption-text { padding-top: 0.5em; padding-right: 10px; text-align: left; font-size: 13px; line-height: 1.125; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-style: normal; font-weight: 400; opacity: 0.666; }
+  .wp-caption-text { padding-top: 0.5em; padding-right: 10px; text-align: left; font-size: 13px; line-height: 1.125; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-style: normal; font-weight: 400; opacity: 0.666; }
   .wp-caption-text a { text-decoration: underline; color: inherit; }
   
   .g1-frame { display: block; }
@@ -931,7 +931,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .jsgif { position: relative; }
   
-  .g1-indicator-gif { display: block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; z-index: 1; left: 50%; right: auto; top: 50%; bottom: auto; width: 60px; height: 60px; margin-left: -30px; margin-top: -30px; border-width: 3px; border-style: solid; text-align: center; letter-spacing: 0; font-size: 16px; line-height: 1; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 600; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; border-color: #fff; background-color: #000; background-color: rgba(0, 0, 0, 0.666); color: #fff; }
+  .g1-indicator-gif { display: block; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; z-index: 1; left: 50%; right: auto; top: 50%; bottom: auto; width: 60px; height: 60px; margin-left: -30px; margin-top: -30px; border-width: 3px; border-style: solid; text-align: center; letter-spacing: 0; font-size: 16px; line-height: 1; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 600; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; border-color: #fff; background-color: #000; background-color: rgba(0, 0, 0, 0.666); color: #fff; }
   .g1-indicator-gif:before { display: block; position: absolute; left: 0; right: 0; top: 50%; margin-top: -0.5em; content: "gif"; }
   
   @media only screen and (min-width: 801px) { .g1-indicator-gif { width: 80px; height: 80px; margin-left: -40px; margin-top: -40px; border-width: 0; font-size: 24px; } }
@@ -973,7 +973,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .mashsb-container + .mashsb-container { display: none; }
   
-  .mashsb-box { font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 500; }
+  .mashsb-box { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 500; }
   
   .mashsb-count { margin-top: 0; margin-right: 15px; }
   
@@ -981,11 +981,11 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .mashsb-buttons .mashsb-count:first-child { margin-right: 15px; margin-left: 0; }
   
-  .mashsb-sharetext { font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 300; }
+  .mashsb-sharetext { font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 300; }
   
   .mashsb-main { padding-top: 12px; padding-bottom: 24px; border-width: 1px 0 0; border-style: solid; border-color: #e6e6e6; }
-  .mashsb-main .mashsbcount, .mashsb-main .mashpv .count { font-size: 36px; line-height: 1; font-family: "Poppins", "Roboto", sans-serif; font-weight: 700; letter-spacing: -0.05em; }
-  .mashsb-main .mashsb-sharetext { display: block; margin-top: 0.5em; font-size: 13px; line-height: 1; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 300; }
+  .mashsb-main .mashsbcount, .mashsb-main .mashpv .count { font-size: 36px; line-height: 1; font-family: "Source Sans Pro", "Roboto", sans-serif; font-weight: 700; letter-spacing: -0.05em; }
+  .mashsb-main .mashsb-sharetext { display: block; margin-top: 0.5em; font-size: 13px; line-height: 1; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 300; }
   
   .mashsb-buttons { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
   .mashsb-buttons:after { display: table; clear: both; content: ""; }
@@ -1033,10 +1033,10 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .mtm-drop-expanded > a:after { content: "\e002"; }
   
   .g1-menu-item-helper { margin-top: 6px; margin-bottom: 6px; }
-  .g1-menu-item-helper > .mtm-link { font-size: 13px; line-height: 15px; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.666; }
+  .g1-menu-item-helper > .mtm-link { font-size: 13px; line-height: 15px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: normal; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.666; }
   
   .sub-menu { margin: 0; padding: 15px 0; list-style: none; }
-  .sub-menu > li > a { padding: 4px 20px; font-size: 13px; font-family: "Poppins"; font-weight: 500; text-transform: uppercase; }
+  .sub-menu > li > a { padding: 4px 20px; font-size: 13px; font-family: "Source Sans Pro"; font-weight: 500; text-transform: uppercase; }
   
   .g1-dropable .menu-item ul { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; z-index: 2; left: 0; right: auto; top: 100%; width: 240px; padding: 20px 0; -moz-box-shadow: 0 15px 45px 15px rgba(0, 0, 0, 0.07); -webkit-box-shadow: 0 15px 45px 15px rgba(0, 0, 0, 0.07); box-shadow: 0 15px 45px 15px rgba(0, 0, 0, 0.07); }
   .g1-dropable .menu-item ul a { display: block; padding: 4px 20px; }
@@ -1081,7 +1081,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .g1-primary-nav { display: inline-block; vertical-align: top; }
   .g1-primary-nav ul { margin: 0; list-style: none; }
   .g1-primary-nav > ul > .menu-item { display: inline-block; padding: 14px 10px; vertical-align: top; font-size: 1rem; }
-  .g1-primary-nav > ul > .menu-item > a { padding-top: 3px; padding-bottom: 3px; font-size: 14px; line-height: 16px; text-transform: uppercase; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; }
+  .g1-primary-nav > ul > .menu-item > a { padding-top: 3px; padding-bottom: 3px; font-size: 14px; line-height: 16px; text-transform: uppercase; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; }
   
   .g1-canvas .g1-primary-nav { display: block; }
   .g1-canvas .g1-primary-nav > ul > .menu-item { display: block; padding: 6px 10px; }
@@ -1093,7 +1093,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .g1-quick-nav-menu { display: -webkit-flex; display: -ms-flexbox; display: flex; margin: 0; list-style: none; text-align: center; }
   .g1-quick-nav-menu > .menu-item { display: inline-block; -webkit-flex: 1 0 0%; -ms-flex: 1 0 0%; flex: 1 0 0%; }
-  .g1-quick-nav-menu > .menu-item > a { display: block; padding: 0 5px; text-transform: uppercase; font-size: 11px; line-height: 1.125; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; color: inherit; }
+  .g1-quick-nav-menu > .menu-item > a { display: block; padding: 0 5px; text-transform: uppercase; font-size: 11px; line-height: 1.125; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; color: inherit; }
   .g1-quick-nav-menu > .menu-item > a:before { display: block; margin-bottom: 0.1em; font-size: 18px; font-family: "bimber"; font-weight: normal; opacity: 0.3; -moz-transition: opacity 0.375s ease-in-out; -o-transition: opacity 0.375s ease-in-out; -webkit-transition: opacity 0.375s ease-in-out; transition: opacity 0.375s ease-in-out; }
   .g1-quick-nav-menu > .current-menu-item > a:before, .g1-quick-nav-menu > .menu-item:hover > a:before { opacity: 1; }
   
@@ -1117,7 +1117,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   
   .g1-drop { display: inline-block; margin-right: 10px; margin-bottom: 30px; vertical-align: top; }
   
-  .g1-drop-toggle { display: inline-block; position: relative; font-size: 0; font-family: "Poppins", "Roboto", "Arial", sans-serif; font-weight: 700; text-transform: uppercase; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; }
+  .g1-drop-toggle { display: inline-block; position: relative; font-size: 0; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; font-weight: 700; text-transform: uppercase; -moz-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; -o-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; -webkit-transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; transition: border-color 0.375s ease-in-out, background-color 0.375s ease-in-out, color 0.375s ease-in-out, opacity 0.375s ease-in-out; }
   .g1-drop-toggle .bimber-icon { display: inline-block; vertical-align: middle; font-size: 14px; }
   
   .g1-drop-toggle-badge { display: inline-block; min-width: 1.5em; position: absolute; right: -0.75em; left: auto; top: -0.375em; text-align: center; font-size: 12px; line-height: 1.5; font-weight: 300; -moz-border-radius: 0.75em; -webkit-border-radius: 0.75em; border-radius: 0.75em; }
@@ -1244,7 +1244,7 @@ Tags:           fluid-layout, custom-colors, custom-menu, featured-images, post-
   .g1-prefooter { padding-top: 3rem; }
   .g1-prefooter .widget { margin-bottom: 3rem; }
   
-  .g1-footer { padding-top: 15px; font-family: "Poppins", "Roboto", "Arial", sans-serif; }
+  .g1-footer { padding-top: 15px; font-family: "Source Sans Pro", "Roboto", "Arial", sans-serif; }
   .g1-footer .g1-column { font-size: 13px; line-height: 1.5; }
   
   .g1-prefooter + .g1-footer { border-top: 1px solid #ccc; }
