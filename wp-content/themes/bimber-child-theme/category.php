@@ -55,7 +55,7 @@ $queried_object = get_queried_object();
 			if($seo_content !== null && $seo_content !== ''){
 				echo '<div class="g1-row g1-row-layout-page">';
 				echo '<div class="g1-row-inner">';
-					echo '<div id="primary" class="g1-column g1-column-2of3">';
+					echo '<div id="primary" class="g1-column">';
 						echo $seo_content;
 					echo '</div>';
 				echo '</div>';
