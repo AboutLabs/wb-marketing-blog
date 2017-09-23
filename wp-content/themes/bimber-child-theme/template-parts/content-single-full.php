@@ -20,7 +20,7 @@ if ( bimber_show_breadcrumbs() ) :
 endif;
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-tpl-classic' ); ?> itemscope="" itemtype="<?php echo esc_attr( bimber_get_entry_microdata_itemtype() ); ?>">
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'entry-tpl-classic-nosidebar' ); ?> itemscope="" itemtype="<?php echo esc_attr( bimber_get_entry_microdata_itemtype() ); ?>">
 	<header class="entry-header entry-header-01">
 		<?php
 		if ( $bimber_elements['categories'] ) :
@@ -32,7 +32,7 @@ endif;
 
 		<?php bimber_render_entry_flags( array( 'show_collections' => false ) ); ?>
 
-		<?php the_title( '<h1 class="g1-mega g1-mega-1st entry-title" itemprop="headline">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="g1-giga g1-giga-1st entry-title" itemprop="headline">', '</h1>' ); ?>
 
 		<?php echo $post_description; ?>
 
@@ -41,7 +41,7 @@ endif;
 			the_subtitle( '<h2 class="entry-subtitle g1-gamma g1-gamma-3rd" itemprop="description">', '</h2>' );
 		endif;
 		?>
-		<?php get_template_part( 'template-parts/snax-bar-item' ); ?>
+
 		<?php if ( $bimber_elements['author'] || $bimber_elements['date'] || $bimber_elements['views'] || $bimber_elements['comments_link'] ) : ?>
 			<p class="entry-meta entry-meta-m">
 				<span class="entry-meta-wrap">
@@ -80,13 +80,12 @@ endif;
 		<?php endif; ?>
 
 		<?php bimber_render_top_share_buttons(); ?>
-
 	</header>
 
 	<?php
 	if ( bimber_show_entry_featured_media( $bimber_elements['featured_media'] ) ) :
 		bimber_render_entry_featured_media( array(
-			'size'          => 'bimber-grid-2of3',
+			'size'          => 'bimber-classic-1of1',
 			'class'         => 'entry-featured-media-main',
 			'use_microdata' => true,
 			'apply_link'    => false,
@@ -102,7 +101,7 @@ endif;
 
 	<?php
 	do_action( 'bimber_after_single_content', array(
-		'layout' => 'with-sidebar',
+		'layout' => 'row',
 		'elements'  => $bimber_elements,
 	) );
 	?>
