@@ -37,6 +37,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 </head>
 
 <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+
+<?php do_action('after_body_open_tag'); ?>
+
 <?php do_action( 'bimber_body_start' ); ?>
 
 <div class="g1-body-inner">
