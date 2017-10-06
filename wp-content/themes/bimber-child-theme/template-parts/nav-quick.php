@@ -64,7 +64,6 @@
 						<li class="menu-item menu-item-type-g1-latest <?php if ( bimber_is_latest_page() ) {
 							echo sanitize_html_class( 'current-menu-item' ); } ?>">
 							<a href="<?php echo esc_url( bimber_get_latest_page_url() ); ?>">
-								<span class="entry-flag entry-flag-latest"></span>
 								<?php echo esc_html( bimber_get_latest_page_label() ); ?>
 							</a>
 						</li>
@@ -74,7 +73,6 @@
 						<li class="menu-item menu-item-type-g1-popular <?php if ( bimber_is_popular_page() ) {
 							echo sanitize_html_class( 'current-menu-item' ); } ?>">
 							<a href="<?php echo esc_url( bimber_get_popular_page_url() ); ?>">
-								<span class="entry-flag entry-flag-popular"></span>
 								<?php echo esc_html( bimber_get_popular_page_label() ); ?>
 							</a>
 						</li>
@@ -84,7 +82,6 @@
 						<li class="menu-item menu-item-type-g1-hot <?php if ( bimber_is_hot_page() ) {
 							echo sanitize_html_class( 'current-menu-item' ); } ?>">
 							<a href="<?php echo esc_url( bimber_get_hot_page_url() ); ?>">
-								<span class="entry-flag entry-flag-hot"></span>
 								<?php echo esc_html( bimber_get_hot_page_label() ); ?>
 							</a>
 						</li>
@@ -94,7 +91,6 @@
 						<li class="menu-item menu-item-type-g1-trending <?php if ( bimber_is_trending_page() ) {
 							echo sanitize_html_class( 'current-menu-item' ); } ?>">
 							<a href="<?php echo esc_url( bimber_get_trending_page_url() ); ?>">
-								<span class="entry-flag entry-flag-trending"></span>
 								<?php echo esc_html( bimber_get_trending_page_label() ); ?>
 							</a>
 						</li>
